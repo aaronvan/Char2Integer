@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
 			printf("twenty ");
 			break;
 		default:
-			printf(" ");
+			printf('\0');
 	}
 
 	last = lastDigit(value);
