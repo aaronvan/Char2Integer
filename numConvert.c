@@ -54,12 +54,10 @@ int main(int argc, char *argv[]) {
 		case 2:
 			printf("Two hundred");
 			break;
-		case 1:
-			printf("One hundred");
-			break;
 		default:
-			printf("Error");
+			printf("One hundred");
 	}
+
 	printf(" and ");
 
 	second = middleDigit(value);
@@ -90,11 +88,8 @@ int main(int argc, char *argv[]) {
 		case 2:
 			printf("twenty ");
 			break;
-		case 1:
-			printf(" ");
-			break;
 		default:
-			printf("Error");
+			printf(" ");
 	}
 
 	last = lastDigit(value);
@@ -125,12 +120,10 @@ int main(int argc, char *argv[]) {
 		case 2:
 			printf("two");
 			break;
-		case 1:
-			printf("one");
-			break;
 		default:
-			printf("Error");
+			printf("one");
 	}
+
 	printf("\n");
 
 	return 0;
